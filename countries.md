@@ -11,7 +11,7 @@
 - [ ] DK Denmark
 - [ ] EE Estonia
 - [ ] FI Finland
-- [ ] FR France
+- [X] FR France
 - [x] DE Germany
 - [ ] GR Greece
 - [ ] HU Hungary
@@ -33,7 +33,7 @@
 - [ ] RS Serbia
 - [ ] SK Slovakia
 - [ ] SI Slovenia
-- [ ] ES Spain
+- [X] ES Spain
 - [ ] SE Sweden
 - [x] CH Switzerland
 - [ ] UA Ukraine
