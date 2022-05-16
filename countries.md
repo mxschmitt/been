@@ -80,7 +80,7 @@
 - [ ] TJ Tajikistan
 - [ ] TH Thailand
 - [ ] TL Timor-Leste
-- [ ] TR Turkey
+- [x] TR Turkey
 - [ ] TM Turkmenistan
 - [ ] AE United Arab Emirates
 - [ ] UZ Uzbekistan
