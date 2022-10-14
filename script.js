@@ -40,7 +40,11 @@ class Map {
     const parsedDocument = domParser.parseFromString(svgText, 'text/html');
     const foreignSVG = parsedDocument.querySelector('svg');
     const svg = document.importNode(foreignSVG, true);
-    return new Map(svg, countriesText);
+    try {
+      return new Map(svg, countriesText);
+    } catch (error) {
+      debugger
+    }
   }
 
   zoomIntoCountry(country) {
@@ -88,8 +92,10 @@ class Map {
         const id = match[2];
         const name = match[3];
         const element = svg.querySelector('#'+ id);
-        const country = new Country(region, id, name, element, visited);
-        region.countries.push(country);
+        if (element) {
+          const country = new Country(region, id, name, element, visited);
+          region.countries.push(country);
+        }
       }
     }
     for (const region of this.regions)
