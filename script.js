@@ -116,6 +116,13 @@ async function onMapLoaded([map]) {
   const container = $('.map');
   container.appendChild(map.element);
 
+  // make zoom/pan work
+  panZoomTiger = svgPanZoom(map.element, {
+    controlIconsEnabled: true,
+  });
+  panZoomTiger.zoomBy(1.3)
+  panZoomTiger.panBy({ y: 100, x: 0 })
+
   // Build sidebar.
   const countrylist = $('.countrylist');
   for (const region of map.regions) {
