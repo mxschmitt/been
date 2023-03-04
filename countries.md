@@ -12,7 +12,7 @@
 - [ ] BY Belarus
 - [x] CH Switzerland
 - [ ] CY Cyprus
-- [ ] CZ Czech Republic
+- [x] CZ Czech Republic
 - [x] DE Germany
 - [ ] DK Denmark
 - [ ] EE Estonia
