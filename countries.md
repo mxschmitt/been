@@ -30,7 +30,7 @@
 - [ ] HU Hungary
 - [ ] IE Ireland
 - [ ] IM Isle of Man
-- [ ] IS Iceland
+- [X] IS Iceland
 - [x] IT Italy
 - [ ] JE Jersey
 - [ ] KZ Kazakhstan
