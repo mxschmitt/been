@@ -30,7 +30,7 @@
 - [ ] HU Hungary
 - [ ] IE Ireland
 - [ ] IM Isle of Man
-- [X] IS Iceland
+- [x] IS Iceland
 - [x] IT Italy
 - [ ] JE Jersey
 - [ ] KZ Kazakhstan
@@ -55,7 +55,7 @@
 - [ ] SJ Svalbard and Jan Mayen
 - [ ] SK Slovakia
 - [ ] SM San Marino
-- [x] TR Turkey
+- [x] TR Türkiye
 - [ ] UA Ukraine
 - [ ] VA Holy See (Vatican City State)
 - [ ] XK Kosovo
@@ -84,7 +84,6 @@
 - [ ] KH Cambodia
 - [ ] KP Korea, Democratic People's Republic of
 - [ ] KR Korea, Republic of
-- [ ] KN Saint Kitts and Nevis
 - [ ] KW Kuwait
 - [ ] LA Lao People's Democratic Republic
 - [ ] LB Lebanon
@@ -136,6 +135,7 @@
 - [ ] HN Honduras
 - [ ] HT Haiti
 - [ ] JM Jamaica
+- [ ] KN Saint Kitts and Nevis
 - [ ] KY Cayman Islands
 - [ ] LC Saint Lucia
 - [ ] MF Saint Martin (French Part)

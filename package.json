@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/aslushnikov/been#readme",
   "devDependencies": {
-    "@amcharts/amcharts5-geodata": "^5.0.3"
+    "@amcharts/amcharts5-geodata": "^5.1.5"
   }
 }
