@@ -46,7 +46,7 @@
 - [x] NL Netherlands
 - [ ] NO Norway
 - [ ] PL Poland
-- [ ] PT Portugal
+- [x] PT Portugal
 - [ ] RO Romania
 - [ ] RS Serbia
 - [ ] RU Russian Federation
@@ -180,7 +180,7 @@
 - [ ] GN Guinea
 - [ ] GQ Equatorial Guinea
 - [ ] GW Guinea-Bissau
-- [ ] KE Kenya
+- [x] KE Kenya
 - [ ] KM Comoros
 - [ ] LR Liberia
 - [ ] LS Lesotho
@@ -235,7 +235,7 @@
 - [ ] FK Falkland Islands (Malvinas)
 - [ ] GF French Guiana
 - [ ] GY Guyana
-- [ ] PE Peru
+- [x] PE Peru
 - [ ] PY Paraguay
 - [ ] SR Suriname
 - [ ] UY Uruguay
