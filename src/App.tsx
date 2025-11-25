@@ -10,9 +10,8 @@ import { flattenCountries } from './lib/countries';
 import { mapStyleUrl } from './lib/mapConfig';
 
 const buildFeatures = (): CountryFeatureCollection => {
-  const fc = (worldLow as any).default || (worldLow as any);
-  const features = (fc.features || [])
-    .map((f: any) => {
+  const features = worldLow.features
+    .map((f) => {
       if (!f.geometry)
         return null;
       const id = (f.properties?.id || '').toString().toUpperCase();
