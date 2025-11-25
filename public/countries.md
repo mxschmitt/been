@@ -16,17 +16,17 @@
 - [x] CZ Czech Republic: |
     I went skiing there in 2023 at Klínovec.
 - [x] DE Germany: |
-    I'm living here. Grew up in Bavaria - moved to Berlin in 2021.
+    I'm living here. Grew up in Bavaria - moved to Berlin Mid 2021.
 - [ ] DK Denmark
 - [ ] EE Estonia
 - [x] ES Spain: |
-    I went to Malaga.
+    I went to Malaga. There are a bunch of nice day trips which you can do from there. (Ronda, Granada, Caminito del Rey, Gibraltar)
 - [ ] FI Finland
 - [ ] FO Faroe Islands
 - [x] FR France: |
-    I went skiing there.
+    I went skiing there: Val Thorens - My favorite ski resort in the alps (and also the biggest one).
 - [x] GB United Kingdom: |
-    I went to London a few times to meet a friend and I went to London as a small kid.
+    I went to London a few times to meet a friend and I went to London as a small kid with a group tour.
 - [ ] GB-CHA Channel Islands
 - [ ] GE Georgia
 - [ ] GG Guernsey
@@ -37,7 +37,7 @@
 - [ ] IE Ireland
 - [ ] IM Isle of Man
 - [x] IS Iceland: |
-    I was hiking there in XXX and I did a typical sightseeing tour with my parents.
+    I was hiking there in Sep 2023 and I did a typical sightseeing tour with my dad/brother.
 - [x] IT Italy: |
     I went to Rome when I was around 14 years old.
 - [ ] JE Jersey
@@ -52,11 +52,11 @@
 - [ ] MK North Macedonia
 - [ ] MT Malta
 - [x] NL Netherlands: |
-    I went for some parody there, I went to Amsterdam to meet a friend.
+    I went for some party there also I went to Amsterdam to meet a friend.
 - [ ] NO Norway
 - [ ] PL Poland
 - [x] PT Portugal: |
-    I went to Lisbon and to Madeira and to Azores.
+    I went to Lisbon (+ Roadtrips around it), Madeira and to Azores.
 - [ ] RO Romania
 - [ ] RS Serbia
 - [ ] RU Russian Federation
@@ -66,7 +66,7 @@
 - [ ] SK Slovakia
 - [ ] SM San Marino
 - [x] TR Türkiye: |
-    I went to Istanbul for vacation to meet an ex-Kuburka.
+    I went to Istanbul for vacation to meet an ex Co-worker.
 - [ ] UA Ukraine
 - [ ] VA Holy See (Vatican City State)
 - [ ] XK Kosovo
@@ -84,7 +84,7 @@
 - [ ] CN China
 - [ ] CX Christmas Island
 - [x] HK Hong Kong: |
-    I went there because my brother did a semester abroad. I went there with my dad to visit Felix, my brother.
+    I went there with my dad because my brother did a semester abroad.
 - [ ] ID Indonesia
 - [ ] IL Israel
 - [ ] IN India
@@ -93,7 +93,7 @@
 - [ ] IR Iran, Islamic Republic of
 - [ ] JO Jordan
 - [x] JP Japan: |
-    I went to Tokyo because my brother did a semester abroad with my dad.
+    I went there with my dad because my brother did a semester abroad.
 - [ ] KG Kyrgyzstan
 - [ ] KH Cambodia
 - [ ] KP Korea, Democratic People's Republic of
@@ -196,7 +196,7 @@
 - [ ] GQ Equatorial Guinea
 - [ ] GW Guinea-Bissau
 - [x] KE Kenya: |
-    I went there for a running boot camp and doing a safari.
+    I went there for a running boot camp (hatc-iten.com) and doing a safari. Highly recommend.
 - [ ] KM Comoros
 - [ ] LR Liberia
 - [ ] LS Lesotho
@@ -252,7 +252,7 @@
 - [ ] GF French Guiana
 - [ ] GY Guyana
 - [x] PE Peru: |
-    I went to Lima for some cobraking and to Cusco for hiking and to see my troupitua. I went there with a friend I met in Kenya from Canada.
+    I went to Lima for some co-working and to Cusco for hiking and to see Machu Picchu. I went there with a friend I met in Kenya from Canada.
 - [ ] PY Paraguay
 - [ ] SR Suriname
 - [ ] UY Uruguay

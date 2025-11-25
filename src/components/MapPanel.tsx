@@ -36,7 +36,6 @@ export const MapPanel = ({
     if (!style?.layers)
       return;
     style.layers.forEach(layer => {
-      console.log(layer.id, layer.type);
       if (layer.type === 'symbol' && layer.id.includes('settlement-'))
         map.setLayoutProperty(layer.id, 'visibility', 'none');
     });
