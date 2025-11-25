@@ -100,10 +100,13 @@ const App = () => {
           <div className="brand__subtitle">Max Schmitt's visited countries tracker</div>
         </div>
         <div className="stats">
-          <div className="stats__value">
-            {totalVisited}/{allCountries.length}
+          <div className="stats__globe" aria-hidden="true">🌍</div>
+          <div className="stats__body">
+            <div className="stats__value">
+              {totalVisited}/{allCountries.length}
+            </div>
+            <div className="stats__label">Visited</div>
           </div>
-          <div className="stats__label">Visited</div>
         </div>
       </header>
 

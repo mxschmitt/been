@@ -3,6 +3,19 @@ import clsx from 'clsx';
 import type { Country, Region } from '../lib/countries';
 import { VisitedBadge } from './VisitedBadge';
 
+const flagFromCode = (code: string) => {
+  if (!code || code.length !== 2)
+    return '🌐';
+  const upper = code.toUpperCase();
+  const first = upper.codePointAt(0);
+  const second = upper.codePointAt(1);
+  if (!first || !second)
+    return '🌐';
+  const base = 0x1f1e6;
+  const offset = 'A'.codePointAt(0) ?? 65;
+  return String.fromCodePoint(base + (first - offset), base + (second - offset));
+};
+
 export const RegionSection = ({
   region,
   filteredCountries,
@@ -44,7 +57,12 @@ export const RegionSection = ({
             onBlur={() => onSelect(null, { hoverOnly: true })}
             onClick={() => onSelect(country.id)}
           >
-            <div className="country__name">{country.name}</div>
+            <div className="country__name">
+              <span className="country__flag" aria-hidden="true">
+                {flagFromCode(country.id)}
+              </span>
+              <span className="country__label">{country.name}</span>
+            </div>
             <div className="country__code">{country.id}</div>
             <VisitedBadge visited={country.visited} />
             {country.description ? <div className="country__note">{country.description}</div> : null}

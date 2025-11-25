@@ -72,8 +72,18 @@ a {
   border: 1px solid var(--panel-border);
   padding: 0.7rem 1rem;
   border-radius: var(--radius-sm);
-  text-align: right;
-  min-width: 120px;
+  min-width: 140px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.stats__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  align-items: flex-start;
 }
 
 .stats__value {
@@ -84,6 +94,11 @@ a {
 .stats__label {
   color: var(--muted);
   font-size: 0.85rem;
+}
+
+.stats__globe {
+  font-size: 1.6rem;
+  line-height: 1;
 }
 
 .filters {
@@ -389,7 +404,19 @@ a {
 }
 
 .country__name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   font-weight: 600;
+}
+
+.country__label {
+  display: inline-block;
+}
+
+.country__flag {
+  font-size: 1.1rem;
+  line-height: 1;
 }
 
 .country__code {

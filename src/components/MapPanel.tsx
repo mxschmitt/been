@@ -136,17 +136,6 @@ export const MapPanel = ({
           <button className="icon-button" onClick={() => mapRef.current?.zoomIn()} type="button" title="Zoom in">
             +
           </button>
-          <button
-            className="icon-button"
-            onClick={() => {
-              mapRef.current?.flyTo({ center: defaultView.center, zoom: defaultView.zoom, duration: 600 });
-              onResetView();
-            }}
-            type="button"
-            title="Reset view"
-          >
-            ⟳
-          </button>
         </div>
       </div>
       <div className="map__canvas">
