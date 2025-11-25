@@ -4,6 +4,9 @@
   "description": "list of visited countries",
   "main": "script.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +19,21 @@
     "url": "https://github.com/aslushnikov/been/issues"
   },
   "homepage": "https://github.com/aslushnikov/been#readme",
+  "dependencies": {
+    "@turf/bbox": "^7.3.0",
+    "mapbox-gl": "^3.9.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-map-gl": "^8.1.0"
+  },
   "devDependencies": {
-    "@amcharts/amcharts5-geodata": "^5.1.5"
+    "@amcharts/amcharts5-geodata": "^5.1.5",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/topojson-specification": "^1.0.5",
+    "@vitejs/plugin-react": "^5.1.1",
+    "mapbox-gl": "^3.16.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
   }
 }

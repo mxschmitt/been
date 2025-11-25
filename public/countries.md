@@ -10,17 +10,23 @@
 - [x] BE Belgium
 - [ ] BG Bulgaria
 - [ ] BY Belarus
-- [x] CH Switzerland
+- [x] CH Switzerland: |
+    I went there a few times for hiking.
 - [ ] CY Cyprus
-- [x] CZ Czech Republic
-- [x] DE Germany
+- [x] CZ Czech Republic: |
+    I went skiing there.
+- [x] DE Germany: |
+    I'm living here.
 - [ ] DK Denmark
 - [ ] EE Estonia
-- [x] ES Spain
+- [x] ES Spain: |
+    I went to Malaga.
 - [ ] FI Finland
 - [ ] FO Faroe Islands
-- [x] FR France
-- [x] GB United Kingdom
+- [x] FR France: |
+    I went skiing there.
+- [x] GB United Kingdom: |
+    I went to London a few times to meet a friend and I went to London as a small kid.
 - [ ] GB-CHA Channel Islands
 - [ ] GE Georgia
 - [ ] GG Guernsey
@@ -30,8 +36,10 @@
 - [ ] HU Hungary
 - [ ] IE Ireland
 - [ ] IM Isle of Man
-- [x] IS Iceland
-- [x] IT Italy
+- [x] IS Iceland: |
+    I was hiking there in XXX and I did a typical sightseeing tour with my parents.
+- [x] IT Italy: |
+    I went to Rome when I was around 14 years old.
 - [ ] JE Jersey
 - [ ] KZ Kazakhstan
 - [ ] LI Liechtenstein
@@ -43,10 +51,12 @@
 - [ ] ME Montenegro
 - [ ] MK North Macedonia
 - [ ] MT Malta
-- [x] NL Netherlands
+- [x] NL Netherlands: |
+    I went for some parody there, I went to Amsterdam to meet a friend.
 - [ ] NO Norway
 - [ ] PL Poland
-- [x] PT Portugal
+- [x] PT Portugal: |
+    I went to Lisbon and to Madeira and to Azores.
 - [ ] RO Romania
 - [ ] RS Serbia
 - [ ] RU Russian Federation
@@ -55,7 +65,8 @@
 - [ ] SJ Svalbard and Jan Mayen
 - [ ] SK Slovakia
 - [ ] SM San Marino
-- [x] TR Türkiye
+- [x] TR Türkiye: |
+    I went to Istanbul for vacation to meet an ex-Kuburka.
 - [ ] UA Ukraine
 - [ ] VA Holy See (Vatican City State)
 - [ ] XK Kosovo
@@ -65,13 +76,15 @@
 - [ ] AE United Arab Emirates
 - [ ] AF Afghanistan
 - [ ] BD Bangladesh
-- [x] BH Bahrain
+- [x] BH Bahrain: |
+    I went there to meet a friend.
 - [ ] BN Brunei Darussalam
 - [ ] BT Bhutan
 - [ ] CC Cocos (Keeling) Islands
 - [ ] CN China
 - [ ] CX Christmas Island
-- [x] HK Hong Kong
+- [x] HK Hong Kong: |
+    I went there because my brother did a semester abroad. I went there with my dad to visit Felix, my brother.
 - [ ] ID Indonesia
 - [ ] IL Israel
 - [ ] IN India
@@ -79,7 +92,8 @@
 - [ ] IQ Iraq
 - [ ] IR Iran, Islamic Republic of
 - [ ] JO Jordan
-- [x] JP Japan
+- [x] JP Japan: |
+    I went to Tokyo because my brother did a semester abroad with my dad.
 - [ ] KG Kyrgyzstan
 - [ ] KH Cambodia
 - [ ] KP Korea, Democratic People's Republic of
@@ -150,7 +164,8 @@
 - [ ] SX Sint Maarten (Dutch Part)
 - [ ] TC Turks and Caicos Islands
 - [ ] TT Trinidad and Tobago
-- [x] US United States
+- [x] US United States: |
+    I went there to Silicon Valley, Idaho, New York, Washington, DC, Salt Lake City.
 - [ ] VC Saint Vincent and the Grenadines
 - [ ] VG Virgin Islands, British
 - [ ] VI Virgin Islands, U.S.
@@ -180,7 +195,8 @@
 - [ ] GN Guinea
 - [ ] GQ Equatorial Guinea
 - [ ] GW Guinea-Bissau
-- [x] KE Kenya
+- [x] KE Kenya: |
+    I went there for a running boot camp and doing a safari.
 - [ ] KM Comoros
 - [ ] LR Liberia
 - [ ] LS Lesotho
@@ -235,7 +251,8 @@
 - [ ] FK Falkland Islands (Malvinas)
 - [ ] GF French Guiana
 - [ ] GY Guyana
-- [x] PE Peru
+- [x] PE Peru: |
+    I went to Lima for some cobraking and to Cusco for hiking and to see my troupitua. I went there with a friend I met in Kenya from Canada.
 - [ ] PY Paraguay
 - [ ] SR Suriname
 - [ ] UY Uruguay
@@ -269,4 +286,3 @@
 - [ ] VU Vanuatu
 - [ ] WF Wallis and Futuna
 - [ ] WS Samoa
-
