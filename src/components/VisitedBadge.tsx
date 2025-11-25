@@ -1,8 +1,8 @@
 import React from 'react';
-import { classNames } from '../lib/classNames';
+import clsx from 'clsx';
 
 export const VisitedBadge = ({ visited }: { visited: boolean }) => (
-  <span className={classNames('pill', visited ? 'pill--success' : 'pill--muted')}>
+  <span className={clsx('pill', visited ? 'pill--success' : 'pill--muted')}>
     {visited ? 'Visited' : 'Not yet'}
   </span>
 );

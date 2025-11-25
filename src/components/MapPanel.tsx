@@ -31,6 +31,16 @@ export const MapPanel = ({
   mapboxToken,
 }: MapPanelProps) => {
   const mapRef = useRef<MapRef | null>(null);
+  const hidePlaceLabels = (map: mapboxgl.Map | null) => {
+    const style = map?.getStyle?.();
+    if (!style?.layers)
+      return;
+    style.layers.forEach(layer => {
+      console.log(layer.id, layer.type);
+      if (layer.type === 'symbol' && layer.id.includes('settlement-'))
+        map.setLayoutProperty(layer.id, 'visibility', 'none');
+    });
+  };
 
   useEffect(() => {
     if (!selectedId) {
@@ -153,6 +163,7 @@ export const MapPanel = ({
           onClick={handleMapClick}
           onMouseMove={handleMapHover}
           onMouseLeave={() => onHover(null)}
+          onLoad={event => hidePlaceLabels(event.target)}
         >
           <Source id="countries" type="geojson" data={countryFeatures}>
             <Layer {...baseLayer} />

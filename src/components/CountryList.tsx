@@ -1,6 +1,6 @@
 import React from 'react';
+import clsx from 'clsx';
 import type { Country, Region } from '../lib/countries';
-import { classNames } from '../lib/classNames';
 import { VisitedBadge } from './VisitedBadge';
 
 export const RegionSection = ({
@@ -31,7 +31,7 @@ export const RegionSection = ({
         {filteredCountries.map(country => (
           <button
             key={country.id}
-            className={classNames(
+            className={clsx(
               'country',
               country.visited && 'country--visited',
               country.id === selectedId && 'country--active',
