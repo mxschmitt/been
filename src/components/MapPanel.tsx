@@ -2,8 +2,7 @@ import React, { useEffect, useMemo, useRef } from 'react';
 import bbox from '@turf/bbox';
 import MapGL, { Layer, MapRef, Source } from 'react-map-gl/mapbox';
 import mapboxgl from 'mapbox-gl';
-import type { Feature, GeoJsonProperties, MultiPolygon, Polygon } from 'geojson';
-import type { LayerSpecification, MapLayerMouseEvent, StyleSpecification } from 'mapbox-gl';
+import type { LayerSpecification, MapMouseEvent, StyleSpecification } from 'mapbox-gl';
 import type { CountryFeatureCollection } from '../lib/countries';
 import { defaultView, fitPadding } from '../lib/mapConfig';
 
@@ -49,7 +48,7 @@ export const MapPanel = ({
     const feature = countryFeatures.features.find(f => f.properties?.id === selectedId);
     if (!feature)
       return;
-    const [minX, minY, maxX, maxY] = bbox(feature as Feature<Polygon | MultiPolygon, GeoJsonProperties>);
+    const [minX, minY, maxX, maxY] = bbox(feature);
     mapRef.current?.fitBounds(
       [
         [minX, minY],
@@ -112,15 +111,15 @@ export const MapPanel = ({
     },
   };
 
-  const handleMapClick = (event: MapLayerMouseEvent) => {
-    const feature = event.features?.find(f => f.properties?.id) as Feature | undefined;
-    const id = (feature?.properties as GeoJsonProperties | undefined)?.id as string | undefined;
+  const handleMapClick = (event: MapMouseEvent) => {
+    const feature = event.features?.find(f => f.properties?.id)
+    const id = feature?.properties?.id;
     onSelect(id ?? null);
   };
 
-  const handleMapHover = (event: MapLayerMouseEvent) => {
-    const feature = event.features?.find(f => f.properties?.id) as Feature | undefined;
-    const id = (feature?.properties as GeoJsonProperties | undefined)?.id as string | undefined;
+  const handleMapHover = (event: MapMouseEvent) => {
+    const feature = event.features?.find(f => f.properties?.id)
+    const id = feature?.properties?.id;
     onHover(id ?? null);
   };
 

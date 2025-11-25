@@ -22,7 +22,7 @@ const buildFeatures = (): CountryFeatureCollection => {
         type: 'Feature',
         geometry: f.geometry,
         properties: { id, name },
-      } as Feature;
+      } satisfies Feature;
     })
     .filter((f: Feature | null): f is Feature => !!f);
   return { type: 'FeatureCollection', features } as CountryFeatureCollection;
