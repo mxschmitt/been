@@ -16,7 +16,7 @@
 - [x] CZ Czech Republic: |
     I went skiing there in 2023 at Klínovec.
 - [x] DE Germany: |
-    I'm living here. Grew up in Bavaria - moved to Berlin Mid 2021.
+    I'm living here. Grew up in Bavaria - moved to Berlin Mid 2020.
 - [ ] DK Denmark
 - [ ] EE Estonia
 - [x] ES Spain: |
