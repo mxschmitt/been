@@ -270,6 +270,26 @@ a {
   padding: 0.75rem 1rem 1rem;
 }
 
+/* Dark-mode friendly scrollbars (WebKit) */
+.panel__content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.panel__content::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-sm);
+}
+
+.panel__content::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-sm);
+  border: 2px solid rgba(255, 255, 255, 0.03);
+}
+
+.panel__content::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
 .panel--map {
   display: flex;
   flex-direction: column;
@@ -423,7 +443,7 @@ a {
   color: var(--muted);
   font-size: 0.85rem;
   justify-self: end;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .pill {
