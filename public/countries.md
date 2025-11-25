@@ -11,12 +11,12 @@
 - [ ] BG Bulgaria
 - [ ] BY Belarus
 - [x] CH Switzerland: |
-    I went there a few times for hiking.
+    I went there a few times for hiking, trail running or general road trip.
 - [ ] CY Cyprus
 - [x] CZ Czech Republic: |
-    I went skiing there.
+    I went skiing there in 2023 at Klínovec.
 - [x] DE Germany: |
-    I'm living here.
+    I'm living here. Grew up in Bavaria - moved to Berlin in 2021.
 - [ ] DK Denmark
 - [ ] EE Estonia
 - [x] ES Spain: |

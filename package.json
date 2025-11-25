@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/aslushnikov/been#readme",
   "dependencies": {
     "@turf/bbox": "^7.3.0",
+    "clsx": "^2.1.1",
     "mapbox-gl": "^3.9.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -34,6 +35,7 @@
     "@vitejs/plugin-react": "^5.1.1",
     "mapbox-gl": "^3.16.0",
     "typescript": "^5.9.3",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vitest": "^4.0.14"
   }
 }
