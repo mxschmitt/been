@@ -145,7 +145,8 @@
 - [ ] GD Grenada
 - [ ] GL Greenland
 - [ ] GP Guadeloupe
-- [ ] GT Guatemala
+- [x] GT Guatemala: |
+    Lake Tikal / Lake Atitlán / Antigua trip + G Adventures road trip with a friend.
 - [ ] HN Honduras
 - [ ] HT Haiti
 - [ ] JM Jamaica
