@@ -246,7 +246,8 @@
 - [ ] BO Bolivia, Plurinational State of
 - [ ] BR Brazil
 - [ ] CL Chile
-- [ ] CO Colombia
+- [x] CO Colombia: |
+    Just a short visit after the Avianca airline cancelled a flight, I had to enter the country and stay in a hotel overnight!
 - [ ] EC Ecuador
 - [ ] FK Falkland Islands (Malvinas)
 - [ ] GF French Guiana
