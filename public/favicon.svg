@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Globe icon">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#87ddff" />
+      <stop offset="100%" stop-color="#1d9bf5" />
+    </radialGradient>
+    <linearGradient id="ocean" x1="20%" y1="15%" x2="80%" y2="85%">
+      <stop offset="0%" stop-color="#6ee3ff" />
+      <stop offset="100%" stop-color="#25a3f0" />
+    </linearGradient>
+    <linearGradient id="shine" x1="35%" y1="25%" x2="65%" y2="75%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(6 6)">
+    <circle cx="42" cy="42" r="42" fill="url(#bg)" />
+    <circle cx="42" cy="42" r="40" fill="url(#ocean)" />
+    <path fill="#9eea7a" d="M18 46c1-8 7-16 15-19l7 2-2 7-7 6-1 8 4 5-6 4-7-2-3-7z" />
+    <path fill="#c5f7ae" d="M38 23c7-3 16-3 22 2l5 7-4 6-7 1-6 6 3 7 8 3 6 9-5 7-15 2-14-5-8-11-3-11 3-8 8-8z" />
+    <path fill="#6ccf5e" d="M56 22c3-2 7-3 11-2l6 5-3 5-6 1-5-4z" />
+    <path fill="#b1f3ff" d="M30 22c4-3 9-5 14-5 7-1 14 1 20 5l-4 1c-4-2-8-3-13-3-5 0-10 1-14 3z" opacity="0.65" />
+    <g fill="none" stroke="#c8f3ff" stroke-width="1" opacity="0.4">
+      <circle cx="42" cy="42" r="32" />
+      <path d="M10 42h64M42 10v64M16 28c8 3 18 5 26 5s18-2 26-5M16 56c8-3 18-5 26-5s18 2 26 5" />
+    </g>
+    <circle cx="42" cy="42" r="40" fill="url(#shine)" />
+    <circle cx="42" cy="42" r="40" fill="none" stroke="#e1f7ff" stroke-width="1.5" opacity="0.75" />
+  </g>
+</svg>
