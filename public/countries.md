@@ -146,8 +146,9 @@
 - [ ] GL Greenland
 - [ ] GP Guadeloupe
 - [x] GT Guatemala: |
-    Lake Tikal / Lake Atitlán / Antigua trip + G Adventures road trip with a friend.
-- [ ] HN Honduras
+    Lake Atitlán / Tikal / Antigua and Volcano Acatenango / Fuego. G Adventures road trip with a friend.
+- [x] HN Honduras: |
+    Copán Ruinas (hot springs and Maya temples were nice)
 - [ ] HT Haiti
 - [ ] JM Jamaica
 - [ ] KN Saint Kitts and Nevis
