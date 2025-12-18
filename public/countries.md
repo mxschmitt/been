@@ -137,7 +137,8 @@
 - [ ] BS Bahamas
 - [ ] BZ Belize
 - [ ] CA Canada
-- [ ] CR Costa Rica
+- [x] CR Costa Rica: |
+    G Adventures Volcano Trail tour - visited Monteverde (cloud forest, ziplining), La Fortuna (Arenal Volcano area, hot springs, adventure activities), and San José.
 - [ ] CU Cuba
 - [ ] CW Curacao
 - [ ] DM Dominica
@@ -158,11 +159,13 @@
 - [ ] MQ Martinique
 - [ ] MS Montserrat
 - [ ] MX Mexico
-- [ ] NI Nicaragua
+- [x] NI Nicaragua: |
+    G Adventures Volcano Trail tour - visited León, Granada (colonial city with Big Night Out), and Isla de Ometepe (2-night community homestay at Puesta del Sol on this volcanic island).
 - [ ] PA Panama
 - [ ] PM Saint Pierre and Miquelon
 - [ ] PR Puerto Rico
-- [ ] SV El Salvador
+- [x] SV El Salvador: |
+    G Adventures Volcano Trail tour - visited Suchitoto (colonial town) and La Libertad Region/Playa El Tunco (beach time and surfing).
 - [ ] SX Sint Maarten (Dutch Part)
 - [ ] TC Turks and Caicos Islands
 - [ ] TT Trinidad and Tobago
