@@ -20,7 +20,8 @@
 - [ ] DK Denmark
 - [ ] EE Estonia
 - [x] ES Spain: |
-    I went to Malaga. There are a bunch of nice day trips which you can do from there. (Ronda, Granada, Caminito del Rey, Gibraltar)
+    I went to Malaga. There are a bunch of nice day trips which you can do from there. (Ronda, Granada, Caminito del Rey, Gibraltar).
+    Also went to Sevilla (01/26 with the family).
 - [ ] FI Finland
 - [ ] FO Faroe Islands
 - [x] FR France: |
